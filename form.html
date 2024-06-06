@@ -62,22 +62,18 @@
         <form method="post" action="confirm.php">
         <table class="formTable">
        
-          <tr>
-            <th>お名前</th>
-            <td><input type="text" id="name" /></td>
-          </tr>
-          <tr>
-            <th>電話番号（半角）</th>
-            <td><input size="30" type="text" name="電話番号" /></td>
-          </tr>
-          <tr>
-            <th>Mail（半角）</th>
-            <td><input size="30" type="text" name="Email" /></td>
-          </tr>
-          <tr>
-            <th>お問い合わせ内容<br /></th>
-            <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
-          </tr>
+         <div>
+            <label for="name">お名前：</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+            <label for="email">メールアドレス：</label>
+            <input type="email" id="email" name="email" />
+        </div>
+        <div>
+            <label for="message">お問い合わせ本文</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
         </table>
        <p><br></p>
         <p class="btn">

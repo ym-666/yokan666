@@ -15,7 +15,7 @@
 　　<h1>お問い合わせフォーム - 確認画面</h1>
 　　<p>以下の内容で送信します。よろしいですか？</p>
 　　<table>
-　　　<tr><td>名前：</td><td><?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?></td></tr>
+　　　<tr><td>お名前：</td><td><?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?></td></tr>
 　　　<tr><td>メールアドレス：</td><td><?php echo htmlspecialchars($email, ENT_QUOTES, 'UTF-8'); ?></td></tr>
 　　　<tr><td>お問い合わせ内容：</td><td><?php echo htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?></td></tr>
 　　</table>
